@@ -5,4 +5,4 @@ cmake .. || exit
 
 make -j8 || exit
 
-./alltest
+mv compile_commands.json ..
